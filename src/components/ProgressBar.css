@@ -1,0 +1,38 @@
+.progressBar__container {
+  height: 30vh;
+  width: 50vw;
+  background-color: rgba(250, 235, 215, 0.228);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 5px white;
+}
+
+.range__value {
+  color: white;
+  font-size: 22px;
+  font-weight: bolder;
+  margin: 10px;
+}
+
+.range__field {
+  width: 23rem;
+  cursor: pointer;
+}
+
+.progressbar {
+  background-color: white;
+  margin-top: 50px;
+  height: 3rem;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.progressbar p {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  font-weight: bolder;
+}
